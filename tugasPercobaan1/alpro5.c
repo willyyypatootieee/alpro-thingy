@@ -1,8 +1,6 @@
 #include <stdio.h>
 
-
 int main() {
-
-    float a = 50.0;
+    float a = 123.456;
     printf("Bilangan Float: %f\n", a);
 }
