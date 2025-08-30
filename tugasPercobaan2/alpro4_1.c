@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void main() {
+    int a, b, c;
+    int d;
+
+    printf("masukkan bilangan pertama: ");
+    scanf("%d", &a);
+
+    printf("masukkan bilangan kedua: ");
+    scanf("%d", &b);
+
+    printf("masukkan bilangan ketiga: ");
+    scanf("%d", &c);
+
+    d = (b * b) - (4 * a * c);
+
+    printf("Nilai Diskiriman (D) = %d\n",d);
+
+
+}
