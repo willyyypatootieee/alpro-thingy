@@ -8,8 +8,8 @@ int jumlah_uang, ratusanRibu, limaPuluhRibu, duaPuluhRibu, sepuluhRibu, limaRibu
    printf("Masukkan Jumlah Uang: ");
    scanf("%d", &jumlah_uang);
 
-    ratusanRibu = jumlah_uang / 10000;
-    jumlah_uang = jumlah_uang % 10000;
+    ratusanRibu = jumlah_uang / 100000;
+    jumlah_uang = jumlah_uang % 100000;
 
 
     // pecahan 50000
