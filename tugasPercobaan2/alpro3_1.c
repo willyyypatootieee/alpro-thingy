@@ -20,8 +20,4 @@ void main() {
     printf("Hasil Operasi Variable a / d * d + a & d adalah: %d\n", operasiVariable5);
     printf("Hasil Operasi Variable a %% d / d *a - c adalah: %d\n", operasiVariable6);
 
-
-
-
-
 }

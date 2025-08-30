@@ -14,8 +14,6 @@ void main() {
     scanf("%d", &c);
 
     d = (b * b) - (4 * a * c);
-
     printf("Nilai Diskiriman (D) = %d\n",d);
-
 
 }
