@@ -22,7 +22,7 @@ void main() {
     pajak = 0.15 * (gajiPokok + tunjanganAyahIbu + tunjanganAnak);
 
     hasilKeseluruhan = gajiPokok + tunjanganAyahIbu + tunjanganAnak + thr + transport - pajak - asuransi;
-    printf("===============================\n");    
+
 
     printf("Total pendapatan bulanan: %.2f\n", hasilKeseluruhan);
 
