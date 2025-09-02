@@ -2,7 +2,7 @@
 
 void main() {
     int gajiPokok, jumlahAnak, masaKerja, hariMasukKerja;
-    float tunjanganAyahIbu, tunjanganAnak, pajak;
+    int tunjanganAyahIbu, tunjanganAnak, pajak;
     int thr, transport, asuransi = 20000;
     float hasilKeseluruhan;
 
@@ -24,7 +24,7 @@ void main() {
     hasilKeseluruhan = gajiPokok + tunjanganAyahIbu + tunjanganAnak + thr + transport - pajak - asuransi;
 
 
-    printf("Total pendapatan bulanan: %.2f\n", hasilKeseluruhan);
+    printf("Total pendapatan bulanan: %.5f\n", hasilKeseluruhan);
 
 
 }
