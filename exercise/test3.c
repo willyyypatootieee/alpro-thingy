@@ -5,7 +5,7 @@ void main()  {
     int umur;
 
     printf("Masukkkan nama: ");
-    scanf("%s", &nama);
+    scanf("%s", nama);
 
     printf("Masukkan umur: ");
     scanf("%d", &umur);

@@ -12,7 +12,7 @@ void main() {
     printf("masukkan bilangan ketiga: ");
     scanf("%d", &c);
 
-    jumlah = a + b + c;
+    jumlah = 3*c*c - 5*c + 6;
 
     printf("Hasil Penjumlahan dari %d + %d + %d = %d\n", a, b, c, jumlah);
 }
