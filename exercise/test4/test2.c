@@ -10,7 +10,7 @@ void main() {
     printf("Masukkan total belanja: ");
     scanf("%f", &totalBelanja);
 
-    printf("Pembeli atas nama %c, membeli barang seharga %.2f\n", nama, totalBelanja);
+    printf("Pembeli atas nama %s, membeli barang seharga %.2f\n", nama, totalBelanja);
     
 
 
