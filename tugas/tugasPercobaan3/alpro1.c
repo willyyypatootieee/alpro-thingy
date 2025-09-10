@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 void main() {
-    int Celcius, Farenheit;
+    float Celcius, Farenheit;
     
     printf("Program sederhana konversi Celcius ke farenheit\n\n");
     printf("input Celcius: "); 
-    scanf("%d", &Celcius);
+    scanf("%f", &Celcius);
     Farenheit = Celcius*1.8+32;
-   printf("Hasil: %d Farenheit", Farenheit);
+   printf("Hasil: %.2f Farenheit", Farenheit);
 }
 
 
