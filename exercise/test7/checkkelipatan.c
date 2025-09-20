@@ -9,8 +9,10 @@ int main () {
     scanf("%d", &bil2);
 
     if (bil1 % bil2 == 0) {
-        printf("%d adalah kelipatan dari %d\n", bil1, bil2);
+        printf("Bilangan pertama adalah kelipatan persekutuan bilangan kedua\n");
     } else {
-        printf("%d bukan kelipatan dari %d\n", bil1, bil2);
+        printf("Bilangan pertama bukan kelipatan persekutuan bilangan kedua\n");
     }
+
+    return 0;
 }
