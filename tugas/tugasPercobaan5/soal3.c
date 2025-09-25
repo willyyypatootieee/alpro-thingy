@@ -18,18 +18,24 @@ void main() {
 
     switch (pilihan)
     {
+
+    // Operator Penjumlahan
     case 1:
         hasil = bilPertama + bilKedua;
         printf("Hasil Penjumlahan dari %d + %d = %d\n", bilPertama, bilKedua, hasil);
         break;
+    // Operator Pengurangan
     case 2:
         hasil = bilPertama - bilKedua;
         printf("Hasil Pengurangan dari %d - %d = %d\n", bilPertama, bilKedua, hasil);
         break;
+    // Operator Perkalian
     case 3:
         hasil = bilPertama * bilKedua;
         printf("Hasil Perkalian dari %d * %d = %d\n", bilPertama, bilKedua, hasil);
-    break;
+        break;
+    // Operator Pembagian 
+    
     if ( bilKedua != 0 ) {
         hasil = bilPertama / bilKedua;
         printf("Hasil Pembagian dari %d / %d = %d\n", bilPertama, bilKedua, hasil);

@@ -2,8 +2,7 @@
 
 void main() {
     int hasil, nilaiSuhu;
-
-
+    
     printf("Masukkan nilai suhu dalam celcius: \n");
     hasil = scanf("%d", &nilaiSuhu);
 
