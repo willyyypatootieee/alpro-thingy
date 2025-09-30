@@ -20,7 +20,7 @@ void main() {
         case 1:
             printf("Masukkan Panjang Sisi: \n");
             scanf("%d", &sisi);
-            volKubus = sis`i * sisi * sisi;
+            volKubus = sisi * sisi * sisi;
             printf("Volume Kubus dengan sisi %d adalah %d\n", sisi, volKubus);
             break;
 
